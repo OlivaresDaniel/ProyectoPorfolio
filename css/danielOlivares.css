@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Quicksand:wght@300;400;700&display=swap');
+
+/* EXERCICI 2 – LOGO*/
+#logo img {
+    transform: translateX(0px) rotate(0deg);
+    transition: all 1s;
+}
+
+#logo:hover img {
+    transform: translateX(220px) rotate(720deg);
+}
+
+/* EXERCICI 3 – FONS DE PANTALLA */
+body {
+    animation: fondo 100s infinite cubic-bezier(0, 0, 0, 0.4);
+    animation-direction: alternate;
+    overflow: hidden scroll;
+}
+
+@keyframes fondo {
+    0% {
+        background-position: -700px;
+    }
+
+    100% {
+        background-position: 1150px;
+    }
+}
+
+/* EXERCICI 4 – MENÚ */
+nav li {
+    position: relative;
+    transition: all 1s;
+    background: url(/media/menu.png) center 60px / 50px 50px no-repeat;
+}
+
+nav li:hover {
+    position: relative;
+    background: url(/media/menu.png) center top / 50px 50px no-repeat;
+}
+
+nav a:hover {
+    transition: all 1s;
+    color: white;
+}
+
+/* EXERCICI 5 – PIKACHU (LLETRES EMERGENTS) */
+
+/* P */
+.p1 {
+    transition: all 1s;
+    position: relative;
+    left: 480px;
+}
+
+#sec1 .container:hover h2 .p1 {
+    left: 0;
+}
+
+/* I */
+.p2 {
+    transition: all 1s;
+    position: relative;
+    left: 400px;
+}
+
+#sec1 .container:hover h2 .p2 {
+    left: 0;
+}
+
+/* K */
+.p3 {
+    transition: all 1s;
+    position: relative;
+    left: 250px;
+}
+
+#sec1 .container:hover h2 .p3 {
+    left: 0;
+}
+
+/* A */
+.p4 {
+    transition: all 1s;
+    position: relative;
+    left: 120px;
+}
+
+#sec1 .container:hover h2 .p4 {
+    left: 0;
+}
+
+/* H */
+.p6 {
+    transition: all 1s;
+    position: relative;
+    right: 150px;
+}
+
+#sec1 .container:hover h2 .p6 {
+    right: 0;
+}
+
+/* U */
+.p7 {
+    transition: all 1s;
+    position: relative;
+    right: 300px;
+}
+
+#sec1 .container:hover h2 .p7 {
+    right: 0;
+}
+
+/* EXERCICI 6 – TEXT ANIMAT */
+.t1,
+.t2,
+.t3 {
+    left: 1500px;
+    position: relative;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+/* LETS */
+.t1 {
+    animation-name: lets;
+    animation-delay: 1s;
+}
+
+@keyframes lets {
+    0% {
+        left: 1500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+/* GO */
+.t2 {
+    animation-name: go;
+    animation-delay: 2s;
+}
+
+@keyframes go {
+    0% {
+        left: 1500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+/* PIKACHU */
+.t3 {
+    animation-name: pikachu;
+    animation-delay: 3s;
+}
+
+@keyframes pikachu {
+    0% {
+        left: 1500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+/* EXERCICI 7 – RÉTOLS GIRATORIS */
+.persp p {
+    transform: rotateX(0deg);
+    transition: all 1s;
+}
+
+.persp:hover p {
+    transform: rotateX(720deg);
+
+}
+
+/* EXERCICI 8 – IMATGE 1 */
+
+/* EXERCICI 9 – IMATGE 2 */
+
+/* EXERCICI 10 – ANIMACIONS PRÒPIES */
