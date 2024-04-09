@@ -2,272 +2,33 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-  </style>
-  <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio</title>
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous">
-</script>
-<script>
-  $(function () {
-      $(".toggle").on("click", function () {
-          if ($(".item").hasClass("active")) {
-              $(".item").removeClass("active");
-          } else {
-              $(".item").addClass("active");
-          }
-      });
-  });
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeDaniel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
 </head>
 
 <body>
+    <div class="secv1">
+        <img id="img" src="img/logo.gif" alt="">
+        <p id="text"><small>HI, I’M</small><br>
+            Daniel Olivares <br>
 
-  <nav>
-    <ul class="menu">
-      <li class="logo"><a href="#">CoderDaniel.com</a></li>
-      <li class="item"><a href="MiWeb.html">Start</a></li>
-      <li class="item"><a href="#hard">About me</a></li>
-      <li class="item"><a href="#content">Project</a></li>
-      <li class="item"><a href="#form_wrap">Contact</a></li>
-      <li class="item button"><a href="img/DanielOlivaresVelascoCV.pdf" download="CoderDaniel_CV">Download CV</a>
-      </li>
-      <li class="item button secondary"><a href="https://github.com/OlivaresDaniel">?</a></li>
-      <li class="toggle"><a href="#"><span class="bars"></span></a></li>
-    </ul>
-  </nav>
+            <a aria-label='Thanks' class='h-button centered' data-text='Press here to start' href="MiWeb.html">
+                <span>T</span>
+                <span>h</span>
+                <span>a</span>
+                <span>n</span>
+                <span>k</span>
+                <span>s</span>
+            </a>
 
-  <section class="container">
-
-    <div class="presentacion">
-
-      <div class="line-1 anim-typewriter">
-        <h3>¡Bienvenido a mi rincón digital!</h3>
-      </div>
-      <p class="texto">Soy Daniel, un informático y programador en constante aprendizaje. Este espacio refleja mis
-        conocimientos sobre el mundo de la informática y la programación.</p>
-
-      <!-- donde he desarrollado habilidades en lenguajes como Java, JavaScript, PHP, HTML y CSS, así como experiencia en bases de datos.
-        Desde el diseño web hasta el desarrollo de aplicaciones, cada proyecto es una oportunidad para aprender
-        y mejorar. Aquí comparto no solo mis creaciones, sino también mi entusiasmo por el constante crecimiento
-        en el ámbito de la informática. Acompáñame en este viaje cibernético, donde la tecnología se encuentra
-        con la creatividad. -->
-
-      <a href="#imagen3_1"><button class="button2" role="button">Certificates</button></a>
+        </p>
 
     </div>
-
-    <div class="img">
-      <img class="imagen" src="img/imgdaniel.png" alt="">
-    </div>
-
-    <div class="hardskills">
-      <h4 id="hard">HARDSKILLS:</h4>
-      <p class="texto">Gestión de Sistemas Operativos.
-        Administración de Servicios.
-        Configuración de redes.
-        Montaje i mantenimiento Hardware.
-        Ofimática (Word, Excel, Access).
-        Multimedia (Photoshop, Premiere).
-
-        Lenguaje de programación:
-        DAW: C++, JAVA, XML, XSD, XSL, SQL, PLSQL.
-        SMIX: HTML y CSS.
-      </p>
-    </div>
-
-    <div class="softskills">
-
-      <h4>SOFTSKILLS:</h4>
-      <p class="texto">
-        Organización y planificación.
-        Trabajo por objetivos.
-        Mantenimiento de la limpieza y el orden en el espacio de trabajo.
-        Atención y concentración.
-      </p>
-    </div>
-
-    <div class="imagenformacion">
-      <img class="imagen2" src="img/formacion.png" alt="">
-    </div>
-
-    <div class="formacion">
-      <h4>Formación</h4>
-      <p class="texto">
-        CFGM SISTEMAS MICROINFORMATICOS Y REDES
-
-        SMIX: Septiembre 2020 - Junio 2022
-      </p>
-
-      <p class="texto">
-        CSGS DESARROLO DE APLICACIONES WEB
-
-        DAW: Septiembre 2022 - Actualmente
-      </p>
-      <a href="#exp"><button class="button2" role="button">Experiencia Laboral</button></a>
-    </div>
-
-    <div class="certificaciones">
-      <h4>Certificaciones</h4>
-      <img id="imagen3_1" src="img/Logo-Windows-Server-2019-1024x576-1.jpg" alt="">
-      <img class="imagen3_2" src="img/MOS_Excel.png" alt="">
-      <img class="imagen3_3" src="img/Cisco-IT_ESSENTIALS_v7.jpeg" alt="">
-      <img class="imagen3_4" src="img/4_redhat.png" alt="">
-      <img class="imagen3_5" src="img/sello01.png" alt="">
-      <img class="imagen3_6" src="img/descarga.png" alt="">
-
-      <p class="texto">
-        WINDOWS SERVER 2019
-      </p>
-
-      <p class="texto">
-        OFFICE WORD 2013 - OFFICE EXCEL 2013
-      </p>
-
-      <p class="texto">
-        CISCO - IT ESSENTIALS
-      </p>
-
-      <p class="texto">
-        RED HAT SYSTEM ADMINISTRATION | (RH124)
-      </p>
-
-      <p class="texto">
-        ORACLE ACADEMY (J2EE, J2SE, PL/SQL)
-      </p>
-
-    </div>
-    
-    <div class="experiencia">
-      <h4 id="exp">Experiencia laboral</h4>
-      <p class="texto">
-        SABADELL - HIT SYSTEM RETAIL SOLUTIONS
-
-        Empresa de software, S.L. Marzo 2022 - Mayo 2022
-      </p>
-
-      <p class="texto">
-        CALDES DE MONTBUI- INFORMÀTICA SERRAT
-
-        Asistencia y servicios informáticos Junio 2021 - Julio 2021
-      </p>
-    </div>
-
-
-    
-    <div class="proyectos">
-      <div class="containerr">
-        <div class="box">
-          <span></span>
-          <div id="content">
-            <h2>Web 1</h2>
-
-            <a href="indexpika.html" download="" class="btn">Entrar</a>
-          </div>
-        </div>
-
-        <div class="box">
-          <span></span>
-          <div id="content">
-            <h2>Web 2</h2>
-
-            <a href="DANIELOLIVARESSEO.html" download="" class="btn">Entrar</a>
-          </div>
-        </div>
-
-        <div class="box">
-          <span></span>
-          <div id="content">
-            <h2>Web 3</h2>
-
-            <a href="indexMETRIC.html" download="" class="btn">Entrar</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="contacto">
-      <section id="form_wrap">
-
-        <section class="cantact_info">
-          <section class="info_title">
-            <span class="fa fa-user-circle"></span>
-            <h2>INFORMACION<br>DE CONTACTO</h2>
-          </section>
-          <section class="info_items">
-            <p><span class="fa fa-envelope"></span> info.daniel@gmail.com</p>
-            <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
-          </section>
-        </section>
-
-        <form action="" class="form_contact">
-          <h2>Envia un mensaje</h2>
-          <div class="user_info">
-            <label for="names">Nombres *</label>
-            <input type="text" id="names">
-
-            <label for="phone">Telefono</label>
-            <input type="text" id="phone">
-
-            <label for="email">Correo electronico *</label>
-            <input type="text" id="email">
-
-            <label for="mensaje">Mensaje *</label>
-            <textarea id="mensaje"></textarea>
-
-            <input type="button" value="Enviar Mensaje" id="btnSend">
-          </div>
-        </form>
-
-      </section>
-    </div>
-</section>
-<footer>
-  <div class="container__footer">
-      <div class="box__footer">
-          <div class="logo">
-              <img src="Images/logoSF.png" alt="">
-          </div>
-
-      </div>
-      <div class="box__footer">
-          <h2>Soluciones</h2>
-          <a href="#">App Desarrollo</a>
-          <a href="#">App Marketing</a>
-          <a href="#">Android Desarrollo</a>
-      </div>
-
-      <div class="box__footer">
-          <h2>Compañia</h2>
-          <a href="#">Acerca de</a>
-          <a href="#">Trabajos</a>
-          <a href="#">Procesos</a>
-          <a href="#">Servicios</a>
-      </div>
-
-      <div class="box__footer">
-          <h2>Redes Sociales</h2>
-          <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-          <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-          <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-      </div>
-
-  </div>
-
-  <div class="box__copyright">
-      <hr>
-      <p>Todos los derechos reservados © 2024 <b>CoderDaniel.com</b></p>
-  </div>
-</footer>
 </body>
 
 </html>
